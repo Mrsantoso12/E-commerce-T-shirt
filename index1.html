@@ -1,0 +1,169 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&family=Nunito&family=Palanquin+Dark:wght@500&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style1.css">
+    <title>ctym Store</title>
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <h2>CTYM Store.com</h2>
+                <!-- <img src="./img/sneakers.png" alt=""> -->
+            </div>
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" placeholder="Search..." class="searchInput">
+                    <img src="./img/search.png" width="20" height="20" alt="" class="searchIcon">
+                </div>
+            </div>
+            <div class="navItem">
+                <span class="limitedOffer">Limited Offer!</span>
+            </div>
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItem">Erigo</h3>
+            <h3 class="menuItem">Uniqlo</h3>
+            <h3 class="menuItem">Bloods</h3>
+            <h3 class="menuItem">Rough Neck</h3>
+            <h3 class="menuItem">yesterday</h3>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="./asset/Erigo.png" alt="" class="sliderImg" id="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">Erigo</br>
+                <h2 class="sliderPrice">Rp.100K</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./asset/Uniqlo.png" alt="" class="sliderImg" id="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">Uniqlo</br> 
+                <h2 class="sliderPrice">Rp.200K</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./asset/Bloods.png" alt="" class="sliderImg" id="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">Bloods</br> 
+                <h2 class="sliderPrice">Rp.300K</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./asset/rougneck.png" alt="" class="sliderImg" id="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">Rough</br> Neck</br>
+                <h2 class="sliderPrice">Rp.250K</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./asset/yesterday.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">Yesterday</br> 
+                <h2 class="sliderPrice">Rp.100K</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+        </div>
+    </div>
+   
+    <div class="features">
+        <div class="feature">
+            <img src="./img/shipping.png" alt="" class="featureIcon">
+            <span class="featureTitle">FREE SHIPPING</span>
+            <span class="featureDesc">Free worldwide shipping on all orders.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/return.png" alt="">
+            <span class="featureTitle">30 DAYS RETURN</span>
+            <span class="featureDesc">No question return and easy refund in 14 days.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/gift.png" alt="">
+            <span class="featureTitle">GIFT CARDS</span>
+            <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/contact.png" alt="">
+            <span class="featureTitle">CONTACT US!</span>
+            <span class="featureDesc">Keep in touch via email and support system.</span>
+        </div>
+    </div>
+
+    <div class="product" id="product">
+        <img src="./asset/Erigo.png" alt="" class="productImg">
+        <div class="productDetails">
+            <h1 class="productTitle">Erigo</h1>
+            <h2 class="productPrice"><Rp class="100K"></Rp></h2>
+            <p class="productDesc">Baju Berbahan terbaik bauatan Indonesia</p>
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            <div class="sizes">
+                <div class="size">M</div>
+                <div class="size">L</div>
+                <div class="size">XL</div>
+            </div>
+            <button class="productButton">BUY NOW!</button>
+        </div>
+        <div class="payment">
+            <h1 class="payTitle">Personal Information</h1>
+            <label>Name and Surname</label>
+            <input type="text" placeholder="John Doe" class="payInput">
+            <label>Phone Number</label>
+            <input type="text" placeholder="+1 234 5678" class="payInput">
+            <label>Address</label>
+            <input type="text" placeholder="Elton St 21 22-145" class="payInput">
+            <h1 class="payTitle">Card Information</h1>
+            <div class="cardIcons">
+                <img src="./img/visa.png" width="40" alt="" class="cardIcon">
+                <img src="./img/master.png" alt="" width="40" class="cardIcon">
+            </div>
+            <input type="password" class="payInput" placeholder="Card Number">
+            <div class="cardInfo">
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyyy" class="payInput sm">
+                <input type="text" placeholder="cvv" class="payInput sm">
+            </div>
+            <button class="payButton">Checkout!</button>
+            <span class="close">X</span>
+        </div>
+    </div>
+    
+        
+  
+<section id="contact">
+    <footer>
+        <p>Purwo Santoso S.Kom</p>
+        <p>Untuk lebih mengenal saya hubungi:</p>
+        <div class="sosial">
+               <a href="https://www.instagram.com/purwo126/"><i class="fa-brands fa-instagram"></i></a>
+               <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <p class="end">CopyRight@ PurwoSantoso.com</p>
+    </footer>
+</section>
+    <script src="js.js"></script>
+</body>
+</html>
